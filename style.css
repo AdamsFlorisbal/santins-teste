@@ -587,6 +587,92 @@ footer {
   width: 817px;
 }
 
+@media (max-width: 1280px) {
+  #header {
+    flex-direction: column;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  #logo {
+    margin-left: unset;
+  }
+  .menu-btn {
+    margin-right: unset;
+  }
+  .content_company {
+    margin-right: unset;
+    max-width: unset;
+    width: 100%;
+  }
+  #a_company {
+    margin-left: 2rem;
+  }
+  .number {
+    margin-left: unset;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content_number {
+    padding: 0 1rem;
+  }
+  .footer-two_cointainer {
+    margin-left: unset;
+  }
+  .container_newsletter__newsletter {
+    min-width: 900px;
+    width: 100%;
+  }
+  .container_founds {
+    margin: -230px;
+    width: 900px;
+    height: 1280px;
+  }
+  .container_founds__founds {
+    padding: 2rem;
+  }
+  .main {
+    min-height: 680px;
+  }
+  .container_founds_text {
+    padding-left: 1rem;
+  }
+  .container_founds__founds-txt {
+    width: 380px;
+  }
+  .container_founds__grid div {
+    height: 230px;
+    margin-top: 8px;
+    width: 400px;
+  }
+  .container_founds__wordpress {
+    margin-left: 1rem;
+  }
+  .container_newsletter__shadow {
+    min-width: 700px;
+  }
+  .container_newsletter__newsletter {
+    min-width: 700px;
+  }
+  .container_newsletter__newsletter h1 {
+    font-size: 25px;
+  }
+  .container_newsletter__newsletter button {
+    width: 200px;
+  }
+  .container_newsletter__newsletter input {
+    width: 300px;
+  }
+  .footer-one {
+    margin-left: unset;
+  }
+  .footer-two h5 {
+    width: unset;
+  }
+  footer {
+    padding: 0 4rem;
+  }
+}
 @media (max-width: 780px) {
   footer {
     display: flex;
@@ -620,64 +706,7 @@ footer {
   .footer-two_cointainer__contact {
     margin-left: unset;
   }
-}
-@media (max-width: 780px) {
-  .container_founds__wordpress {
-    grid-template-columns: 1fr;
-  }
-  .main {
-    min-height: 420px;
-    width: 100%;
-  }
 
-  .number {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    max-width: 480px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-  }
-  .content_number {
-    max-width: 160px;
-    width: 100%;
-  }
-  .content_number__text {
-    margin-top: 25px;
-  }
-  .container_founds {
-    height: 2080px;
-    margin: 0 auto;
-    width: 100%;
-    width: 100%;
-  }
-  .container_founds__grid div {
-    width: unset;
-    height: 240px;
-    margin: 1rem;
-  }
-  .container_founds__grid img {
-    margin: 1rem;
-  }
-  .container_founds__founds {
-    flex-direction: column;
-  }
-
-  .container_founds_text {
-    height: 480px;
-    width: 100%;
-  }
-  .container_founds__founds-txt {
-    width: 320px;
-  }
-  .container_founds__two {
-    height: 200px;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-  }
-}
-@media (max-width: 780px) {
   .menu-btn {
     display: flex;
     flex-direction: column;
@@ -709,6 +738,7 @@ footer {
   }
 
   #header {
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
@@ -803,7 +833,7 @@ footer {
     margin-bottom: -80px;
     min-height: 180px;
     min-width: unset;
-    width: 400px;
+    width: 330px;
   }
   .container_newsletter__newsletter input {
     font-size: 12px;
@@ -823,6 +853,62 @@ footer {
   .container_newsletter__newsletter div {
     max-width: 345px;
     padding: 0 10px;
+    width: 100%;
+  }
+
+  .container_founds__wordpress {
+    grid-template-columns: 1fr;
+  }
+  .main {
+    min-height: 420px;
+    width: 100%;
+  }
+
+  .number {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .content_number {
+    max-width: 160px;
+    width: 100%;
+  }
+  .content_number__text {
+    margin-top: 25px;
+  }
+  .container_founds {
+    height: 2080px;
+    margin: 0 auto;
+    width: 100%;
+    width: unset;
+    height: unset;
+  }
+  .container_founds__grid div {
+    width: unset;
+    height: 240px;
+    margin: 1rem;
+  }
+  .container_founds__grid img {
+    margin: 1rem;
+  }
+  .container_founds__founds {
+    flex-direction: column;
+  }
+
+  .container_founds_text {
+    height: 480px;
+    width: 100%;
+  }
+  .container_founds__founds-txt {
+    width: 320px;
+  }
+  .container_founds__two {
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
     width: 100%;
   }
 }
