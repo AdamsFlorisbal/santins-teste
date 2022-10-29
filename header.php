@@ -14,7 +14,7 @@
 
 <body>
     <header id="header">
-        
+
         <img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo Santins">
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
@@ -25,8 +25,10 @@
                 <li><a href="#our_numbers">Nossos fundos</a></li>
                 <li><a href="#founds">Conteúdos</a></li>
                 <li><a href="#contact">Contato</a></li>
+                <div class="menu-btn">
+                    <button class="btn_login">Faça login</button>
+                    <button class="btn_now">invista agora</button>
+                </div>
             </ul>
-            <button class="btn_login">Faça login</button>
-            <button class="btn_now">invista agora</button>
         </nav>
     </header>

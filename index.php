@@ -30,14 +30,15 @@
   </div>
 </section>
 <section class="main">
-  <div id="our_numbers" class="number">
-    <div class="content_number">
+  
+  <ul id="our_numbers" class="number">
+    <li class="content_number">
       <div class="content_number__number">4</div>
       <div class="content_number__decoration"></div>
       <h4 class="content_number__text">lorem</h4>
       <h5 class="content_number__subtitle"></h5>
-    </div>
-    <div class="content_number">
+    </li>
+    <li class="content_number">
       <div class="content_number__number">
         100
         <span class="content_number__char">%</span>
@@ -45,14 +46,14 @@
       <div class="content_number__decoration"></div>
       <h4 class="content_number__text">lorem</h4>
       <h5 class="content_number__subtitle"></h5>
-    </div>
-    <div class="content_number">
+    </li>
+    <li class="content_number">
       <div class="content_number__number">10</div>
       <div class="content_number__decoration"></div>
       <h4 class="content_number__text">lorem</h4>
       <h5 class="content_number__subtitle"></h5>
-    </div>
-    <div class="content_number">
+    </li>
+    <li class="content_number">
       <div class="content_number__number">
         162,6
         <span class="content_number__char">%</span>
@@ -60,22 +61,23 @@
       <div class="content_number__decoration"></div>
       <h4 class="content_number__text">lorem</h4>
       <h5 class="content_number__subtitle">(lorem)</h5>
-    </div>
-    <div class="content_number">
+    </li>
+    <li class="content_number">
       <div class="content_number__number">1º</div>
       <div class="content_number__decoration"></div>
       <h4 class="content_number__text">lorem</h4>
       <h5 class="content_number__subtitle"></h5>
-    </div>
-    <div class="content_number">
+    </li>
+    <li class="content_number">
       <div class="content_number__number">
         <span class="content_number__char">R$ </span>297<span class="content_number__char">mm</span>
       </div>
       <div class="content_number__decoration"></div>
       <h4 class="content_number__text">lorem</h4>
       <h5 class="content_number__subtitle"></h5>
-    </div>
-  </div>
+    </li>
+  </ul>
+  
 </section>
 <section class="container_founds">
   <div id="founds" class="container_founds__founds">
@@ -84,7 +86,7 @@
         <div class="rectangle"></div>
         <h1 class="founds_title">Fundos</h1>
       </div>
-      <p>
+      <p class="container_founds__founds-txt">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
         maximus tempor tellus non cursus. Donec nisl metus, sagittis at
         convallis at, laoreet eu nulla. Duis mattis luctus tellus at
