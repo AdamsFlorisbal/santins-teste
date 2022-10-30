@@ -46,7 +46,10 @@
             </h5>
         </div>
     </div>
+    
+    
 </footer>
+
 <?php wp_footer();?>
 </body>
 

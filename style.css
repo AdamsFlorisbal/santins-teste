@@ -32,8 +32,9 @@ body::after {
   width: 1245px;
   height: 100%;
   position: fixed;
-  opacity: 1;
-}
+  }
+
+
 
 /* header */
 ul {
@@ -88,11 +89,72 @@ a:hover {
 #menu a {
   display: block;
   padding: 0.5rem;
+  z-index: 1;
+  position: relative;
 }
 
 #btn-mobile {
   color: #ffffff;
   display: none;
+}
+
+#login-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #e6ecf0;
+  padding: 10px 0 20px 0;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+}
+
+.top-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-form .close-modal {
+  cursor: pointer;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.login-form h2 {
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.login-form form input {
+  width: 75%;
+  margin-bottom: 20px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  border: 1px solid #d0d5d8;
+  border-radius: 3px;
+}
+
+.login-form form button {
+  padding: 12px 0px;
+  width: 75%;
+  background-color: #5dca88;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
 }
 
 .btn_login {
@@ -112,6 +174,8 @@ a:hover {
   text-transform: uppercase;
   width: 150px;
   transition: 300ms;
+  z-index: 1;
+  position: relative;
 }
 
 .menu-btn {
@@ -120,6 +184,8 @@ a:hover {
 
 .btn_login:hover {
   background-color: #56d7af;
+  /* z-index: 1;
+  position: relative; */
 }
 .btn_now {
   background: #56d7af;
@@ -136,6 +202,8 @@ a:hover {
   text-transform: uppercase;
   width: 180px;
   transition: 300ms;
+  z-index: 1;
+  position: relative;
 }
 .btn_now:hover {
   background: transparent;
@@ -200,6 +268,8 @@ a:hover {
   text-transform: uppercase;
   width: 160px;
   transition: 300ms;
+  z-index: 1;
+  position: relative;
 }
 
 .btn_know__more:hover {
@@ -694,7 +764,6 @@ footer {
     position: fixed;
     opacity: 1;
   }
-  
 }
 @media (max-width: 780px) {
   footer {
@@ -789,6 +858,8 @@ footer {
     padding: 1rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    position: relative;
   }
   #btn-mobile {
     display: flex;

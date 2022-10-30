@@ -7,13 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teste Santins</title>
     <script src="https://kit.fontawesome.com/749c22f311.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" />
     <?php wp_head(); ?>
 </head>
 
 <body>
+    
     <header id="header">
+    
+
+        <div id="login-modal">
+            <div class="modal">
+                <div class="top-form">
+                    <div class="close-modal">
+                        &#10006;
+                    </div>
+                </div>
+                <div class="login-form">
+                    <h2>Faça login</h2>
+                    <form action="#">
+                        <input class="form-control" type="text" placeholder="Email">
+                        <input class="form-control" type="password" placeholder="Password">
+                        <button type="button" class="submit-btn">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo Santins">
         <nav id="nav">
@@ -26,7 +47,7 @@
                 <li><a href="#founds">Conteúdos</a></li>
                 <li><a href="#contact">Contato</a></li>
                 <div class="menu-btn">
-                    <button class="btn_login">Faça login</button>
+                    <button onclick="modal()" id="login-show" class="btn_login">Faça login</button>
                     <button class="btn_now">invista agora</button>
                 </div>
             </ul>
