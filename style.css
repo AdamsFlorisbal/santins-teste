@@ -430,7 +430,7 @@ a:hover {
   margin-top: 65px;
 }
 .container_founds__grid div {
-  height: 200px;
+  height: 300px;
   margin-top: 16px;
   width: 540px;
 }
@@ -694,6 +694,10 @@ footer {
   .footer-two_cointainer {
     margin-left: unset;
   }
+
+  .container_newsletter{
+    margin-top: 170px;
+  }
   .container_newsletter__newsletter {
     min-width: 900px;
     width: 100%;
@@ -716,7 +720,7 @@ footer {
     width: 380px;
   }
   .container_founds__grid div {
-    height: 230px;
+    min-height: 300px;
     margin-top: 8px;
     width: 400px;
   }
@@ -920,7 +924,9 @@ footer {
   .graphics_image {
     display: none;
   }
-
+  .container_newsletter{
+    margin-top: unset;
+  }
   .container_newsletter__shadow,
   .container_newsletter__newsletter {
     margin-bottom: -80px;

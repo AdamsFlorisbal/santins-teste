@@ -15,7 +15,7 @@
   Descrição do projeto
 </h4>
 
-Este projeto foi desenvolvido no decorrer de um teste, com o propósito de passa para a segunda fase de um processo seletivo.
+Este projeto foi desenvolvido no decorrer de um teste, com o propósito de passar para a segunda fase de um processo seletivo.
 
 Este teste foi desenvolvido com base em uma landing page fictícia em figma:
 
@@ -51,16 +51,16 @@ Caso você já tenha o wordpress instalado você deve fazer o [DOWNLOAD DO TEMA 
 - <h5>Agora em Upload Theme;</h5>
 <a href="/assets/login-futubas.png"><img src="./img/upload_theme.jpg"/></a>
 
-- <h5>Finalmente em Escolher o ficheriro;</h5>
+- <h5>Finalmente em Escolher o ficheiro;</h5>
 <a href="/assets/login-futubas.png"><img src="./img/escolher.jpg"/></a>
 
-- <h5>De dois clique ou selecione e clique em abrir no arquivo que você baixou com nome "santins-teste-main.zip", no meu caso eu salvei na Área de Trabalho;</h5>
+- <h5>Abra o arquivo que você baixou com nome "santins-teste-main.zip", no meu caso eu salvei na Área de Trabalho;</h5>
 <a href="/assets/login-futubas.png"><img src="./img/arquivo.jpg"/></a>
 
 - <h5>Clique em Install Now;</h5>
 <a href="/assets/login-futubas.png"><img src="./img/install_now.jpg"/></a>
 
-- <h5>Caso a instalação ocorra de forma correta aparecerá a uma mensagem onde diz que seu tema foi instalado corretamente então é só clicar em Activate;</h5>
+- <h5>Caso a instalação ocorra de forma correta, aparecerá a uma mensagem onde diz que seu tema foi instalado corretamente então é só clicar em Activate;</h5>
 <a href="/assets/login-futubas.png"><img src="./img/active.jpg"/></a>
 
 - <h5>Para acessar o seu novo tema clique em Visit site;</h5>
