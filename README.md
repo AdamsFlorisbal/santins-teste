@@ -70,5 +70,5 @@ Caso você já tenha o wordpress instalado você deve fazer o [DOWNLOAD DO TEMA 
 <a href="/assets/login-futubas.png"><img src="./img/end.jpg"/></a>
 
 ## :information_source: Como instalar o wordpress para desenvolvimento local
-Caso você não tenha o Wordpress instalado você deve assistir ao video tutorial [AQUI]().
+Caso você não tenha o Wordpress instalado você deve assistir ao video tutorial [AQUI](https://youtu.be/IUldHIfGyXI).
 
