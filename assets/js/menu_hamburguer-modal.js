@@ -13,10 +13,6 @@ function toggleMenu(event) {
   }
 }
 
-function teste(){
-  console.log('teste')
-}
-
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
@@ -29,5 +25,12 @@ $(function() {
     $('#login-modal').fadeOut();
   });
 });
+
+
+function local(){
+  let email = document.getElementById('email').value
+  let convertData = JSON.stringify(email)
+  localStorage.setItem('lead', convertData)  
+}
 
 

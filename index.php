@@ -140,7 +140,7 @@
         <h1>Inscreva-se na nossa Newsletter</h1>
         <div>
             <input type="text" placeholder="contato@santins.com.br" id="email" />
-            <button><a>Assinar Newsletter</a></button>
+            <button onclick="local()"><a>Assinar Newsletter</a></button>
         </div>
     </div>
 </div>

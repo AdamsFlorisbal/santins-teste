@@ -521,6 +521,7 @@ a:hover {
   line-height: 20px;
   padding-left: 30px;
   width: 488px;
+  z-index: 1;
 }
 
 .container_newsletter__newsletter div {
