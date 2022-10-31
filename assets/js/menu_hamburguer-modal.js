@@ -20,4 +20,14 @@ function teste(){
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+$(function() {
+  $('#login-show').click(function() {
+    $('#login-modal').fadeIn().css("display", "flex");
+  });
+
+  $('.close-modal').click(function() {
+    $('#login-modal').fadeOut();
+  });
+});
+
 

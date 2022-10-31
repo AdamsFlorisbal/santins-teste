@@ -7,13 +7,13 @@
         <h3>Lorem Ipsum</h3>
         <div class="footer-one_social-midia">
             <div class="footer-one_social-midia__logo">
-                <i class="fab fa-facebook-f"></i>
+                <a href="https://www.facebook.com/santinstecnologia/"> <i class="fab fa-facebook-f"></i> </a>
             </div>
             <div class="footer-one_social-midia__logo">
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/santinsdigital/"> <i class="fa-brands fa-instagram"></i> </a>
             </div>
             <div class="footer-one_social-midia__logo">
-                <i class="fa-brands fa-twitter"></i>
+                <a href="https://twitter.com/cafedasantins"><i class="fa-brands fa-twitter"></i> </a>
             </div>
         </div>
         <h4>© 2022 Santins</h4>
@@ -46,11 +46,11 @@
             </h5>
         </div>
     </div>
-    
-    
+
+
 </footer>
 
-<?php wp_footer();?>
+<?php wp_footer(); ?>
 </body>
 
 
