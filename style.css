@@ -107,7 +107,7 @@ a:hover {
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1001;
-   display: none;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -147,14 +147,14 @@ a:hover {
 }
 
 .login-form form button {
+  background-color: #56d7af;
+  border-radius: 3px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 10px auto;
   padding: 12px 0px;
   width: 75%;
-  background-color: #56d7af;
-  border: 0;
-  border-radius: 3px;
-  color: white;
-  margin: 10px auto;
-  cursor: pointer;
 }
 
 .btn_login {
@@ -162,18 +162,21 @@ a:hover {
   border-radius: 30px;
   border: 2px solid #56d7af;
   box-sizing: border-box;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
   height: 45px;
   letter-spacing: 0.1em;
   line-height: 100%;
   margin-left: 10.5px;
   margin-right: 13px;
-  text-align: center;
   text-transform: uppercase;
   width: 150px;
   transition: 300ms;
+}
+
+.btn_login a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .menu-btn {
@@ -182,7 +185,6 @@ a:hover {
 
 .btn_login:hover {
   background-color: #56d7af;
-  
 }
 .btn_now {
   background: #56d7af;
@@ -247,16 +249,19 @@ a:hover {
 .btn_know__more {
   background: #56d7af;
   border-radius: 30px;
+  height: 50px;
+  width: 160px;
+  transition: 300ms;
+}
+
+.btn_know__more a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  height: 50px;
   letter-spacing: 0.1em;
   line-height: 25px;
   text-align: center;
   text-transform: uppercase;
-  width: 160px;
-  transition: 300ms;
 }
 
 .btn_know__more:hover {
@@ -293,7 +298,6 @@ a:hover {
   line-height: 28px;
   width: 498px;
 }
-
 
 .rectangle {
   border: 3px solid #56d7af;
@@ -458,6 +462,9 @@ a:hover {
   justify-content: center;
   margin-top: 16px;
 }
+.container_newsletter {
+  margin-top: 50px;
+}
 
 .container_newsletter__shadow {
   background: #0d1025;
@@ -498,12 +505,14 @@ a:hover {
   background: #56d7af;
   border-radius: 0 60px 60px 0;
   color: #ffffff;
-  font-size: 16px;
-  font-weight: 700;
+
   height: 60px;
-  line-height: 25px;
   transition: 300ms;
   width: 262px;
+}
+.container_newsletter__newsletter button a {
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .container_newsletter__newsletter button:hover {
@@ -666,7 +675,7 @@ footer {
   .menu-btn a {
     font-size: 10px;
   }
-  #menu{
+  #menu {
     gap: 1.23rem;
   }
 
@@ -696,7 +705,7 @@ footer {
     margin-left: unset;
   }
 
-  .container_newsletter{
+  .container_newsletter {
     margin-top: 170px;
   }
   .container_newsletter__newsletter {
@@ -811,20 +820,11 @@ footer {
   }
   .btn_now {
     background-color: Transparent;
-    border-radius: 30px;
-    border: 2px solid #56d7af;
-    box-sizing: border-box;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    height: 45px;
+
     letter-spacing: 0.1em;
     line-height: 100%;
     margin-left: 10.5px;
-    margin-right: 13px;
     text-align: center;
-    text-transform: uppercase;
-    transition: 300ms;
     width: 150px;
   }
   #logo {
@@ -903,10 +903,10 @@ footer {
     margin-left: 1rem;
   }
   .text_home {
-    margin-top: 7rem;
     font-size: 20px;
     height: 113px;
     margin-bottom: 16px;
+    margin-top: 7rem;
     text-transform: uppercase;
     width: 17rem;
   }
@@ -925,7 +925,7 @@ footer {
   .graphics_image {
     display: none;
   }
-  .container_newsletter{
+  .container_newsletter {
     margin-top: unset;
   }
   .container_newsletter__shadow,
@@ -936,9 +936,9 @@ footer {
     width: 330px;
   }
   .container_newsletter__newsletter input {
-    padding-left: 1rem;
     font-size: 12px;
     height: 40px;
+    padding-left: 1rem;
     width: 100%;
   }
   .container_newsletter__newsletter h1 {
@@ -946,14 +946,13 @@ footer {
   }
   .container_newsletter__newsletter button {
     height: 40px;
-    width: 100%;
     width: 80%;
   }
   .container_newsletter__newsletter button a {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     font-size: 10px;
+    justify-content: center;
   }
   .container_newsletter__newsletter div {
     max-width: 345px;
@@ -972,10 +971,10 @@ footer {
   .number {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    max-width: 480px;
-    width: 100%;
     margin: 0 auto;
+    max-width: 480px;
     padding: 0;
+    width: 100%;
   }
   .content_number {
     max-width: 160px;
@@ -986,15 +985,14 @@ footer {
   }
   .container_founds {
     height: 2080px;
-    margin: 0 auto;
-    width: 100%;
-    width: unset;
     height: unset;
+    margin: 0 auto;
+    width: unset;
   }
   .container_founds__grid div {
-    width: unset;
     height: 240px;
     margin: 1rem;
+    width: unset;
   }
   .container_founds__grid img {
     margin: 1rem;

@@ -15,7 +15,7 @@
   Descrição do projeto
 </h4>
 
-Este projeto foi desenvolvido no decorrer de um teste, com o propósito de passar para a segunda fase de um processo seletivo.
+Este projeto foi desenvolvido no decorrer de um teste, com o propósito de passar para a segunda fase do processo seletivo.
 
 Este teste foi desenvolvido com base em uma landing page fictícia em figma:
 
